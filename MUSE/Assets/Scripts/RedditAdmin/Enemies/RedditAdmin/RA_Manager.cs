@@ -5,25 +5,27 @@ using UnityEngine;
 public class RA_Manager : MonoBehaviour
 {
     private bool isPerformingAction;
-    LocomotionManager locomotionManager;
+    SearchPlayer searchPlayer;
     public float detectionRadius;
+    public float minimumDAngle = -50;
+    public float maximumDAngle = 50;
 
     private void Awake()
     {
-        locomotionManager = GetComponent<LocomotionManager>();
+        searchPlayer = GetComponent<SearchPlayer>();
     }
 
     
     private void Update()
     {
-        
+        HandleCurrentAction();
     }
 
     private void HandleCurrentAction()
     {
-        if(locomotionManager)
+        if(searchPlayer.mainTarget == null)
         {
-            
+            searchPlayer.HandleDetection();
         }
     }
 }

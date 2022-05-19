@@ -53,8 +53,9 @@
     <UnityVersion>2020.3.8f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\RedditAdmin\Enemies\RedditAdmin\LocomotionManager.cs" />
+    <Compile Include="Assets\Scripts\RedditAdmin\Enemies\RedditAdmin\SearchPlayer.cs" />
     <Compile Include="Assets\Scripts\RedditAdmin\Enemies\RedditAdmin\RA_Manager.cs" />
+    <Compile Include="Assets\Scripts\Player\Player.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
