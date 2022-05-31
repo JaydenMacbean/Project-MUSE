@@ -1,0 +1,93 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22000.675; Version 2009; 64bit' Language: 'nl' Physical Memory: 16261 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\2020.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/School (MA)/Leerjaar 2/Bo/Stedelijke Museum/Muse_Gith
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55107
+Successfully changed project path to: D:/School (MA)/Leerjaar 2/Bo/Stedelijke Museum/Muse_Gith
+D:/School (MA)/Leerjaar 2/Bo/Stedelijke Museum/Muse_Gith
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 20.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/School (MA)/Leerjaar 2/Bo/Stedelijke Museum/Muse_Gith/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001015 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 21.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.897 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000594 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.740 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.1 MB.
+System memory in use after: 57.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 1.387500 ms (FindLiveObjects: 0.105000 ms CreateObjectMapping: 0.028200 ms MarkObjects: 1.186400 ms  DeleteObjects: 0.067000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(af920d5acb28e4240a7e965c6b2d8a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(af920d5acb28e4240a7e965c6b2d8a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf101d1290dcc96907a87c5baa703b4') in 0.003414 seconds
+  Import took 0.016939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.211715 seconds.
+  path: Assets/Map.fbx
+  artifactKey: Guid(0e1cf9d4c6f1371458ca4265b82e85d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map.fbx using Guid(0e1cf9d4c6f1371458ca4265b82e85d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32409c9fe560199aec71e8e744d87d4e') in 0.606726 seconds
+  Import took 0.610819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.484828 seconds.
+  path: Assets/Map.fbx
+  artifactKey: Guid(0e1cf9d4c6f1371458ca4265b82e85d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map.fbx using Guid(0e1cf9d4c6f1371458ca4265b82e85d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255d46b9df280cb2a363960bf7e303eb') in 0.143921 seconds
+  Import took 0.147767 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
