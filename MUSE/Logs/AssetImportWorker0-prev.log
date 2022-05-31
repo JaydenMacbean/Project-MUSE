@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1706; Version 2009; 64bit' Language: 'en' Physical Memory: 16085 MB
+OS: 'Windows 10 Home; OS build 19044.1706; Version 2009; 64bit' Language: 'en' Physical Memory: 16085 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/macbe/OneDrive/Desktop/Bewijzenmap/Leerjaar2/Periode4/BO/Project-MUSE/M
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59611
+57287
 Successfully changed project path to: C:/Users/macbe/OneDrive/Desktop/Bewijzenmap/Leerjaar2/Periode4/BO/Project-MUSE/MUSE
 C:/Users/macbe/OneDrive/Desktop/Bewijzenmap/Leerjaar2/Periode4/BO/Project-MUSE/MUSE
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 51.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -35,79 +35,119 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004059 seconds.
+Registered in 0.001803 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 42.59 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 29.14 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.827 seconds
+- Completed reload, in  3.890 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000670 seconds.
+Registered in 0.001073 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.257 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1119 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.7 MB.
+System memory in use after: 69.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1575.
+Total: 1.999200 ms (FindLiveObjects: 0.114300 ms CreateObjectMapping: 0.020900 ms MarkObjects: 1.730400 ms  DeleteObjects: 0.132800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Enemies/RedditAdmin/States/RAState.cs
+  artifactKey: Guid(09c4f909eb5097d4ba32ddd07fa03e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemies/RedditAdmin/States/RAState.cs using Guid(09c4f909eb5097d4ba32ddd07fa03e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62bda35aedc391d8b9a08a6c65c9112') in 0.024660 seconds
+  Import took 0.026625 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001442 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.236 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.6 MB.
+System memory in use after: 69.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1578.
+Total: 1.777600 ms (FindLiveObjects: 0.176400 ms CreateObjectMapping: 0.043600 ms MarkObjects: 1.459200 ms  DeleteObjects: 0.097200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.728944 seconds.
+  path: Assets/Scripts/Enemies/RedditAdmin/RA_Manager.cs
+  artifactKey: Guid(a5e0e17649d66664e8922c7e003aad83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemies/RedditAdmin/RA_Manager.cs using Guid(a5e0e17649d66664e8922c7e003aad83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58167ad7af6f69c80f0e3a5f2b9b8438') in 0.006854 seconds
+  Import took 0.009293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032306 seconds.
+  path: Assets/Scripts/Enemies/RedditAdmin/RA_Manager.cs
+  artifactKey: Guid(a5e0e17649d66664e8922c7e003aad83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemies/RedditAdmin/RA_Manager.cs using Guid(a5e0e17649d66664e8922c7e003aad83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58167ad7af6f69c80f0e3a5f2b9b8438') in 0.002826 seconds
+  Import took 0.005511 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001818 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.319 seconds
+- Completed reload, in  1.218 seconds
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 69.7 MB.
 System memory in use after: 69.7 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1573.
-Total: 2.073400 ms (FindLiveObjects: 0.124300 ms CreateObjectMapping: 0.072300 ms MarkObjects: 1.758800 ms  DeleteObjects: 0.117000 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/RedditAdmin/Enemies/RedditAdmin/LocomotionManager.cs
-  artifactKey: Guid(9137900e3d49b744caa229e8beb14f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RedditAdmin/Enemies/RedditAdmin/LocomotionManager.cs using Guid(9137900e3d49b744caa229e8beb14f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08543b023bf2904907597d2efeb5ca42') in 0.035998 seconds
-  Import took 0.040480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 120.710705 seconds.
-  path: Assets/Scripts/Player
-  artifactKey: Guid(419f4ac2f627b134f9ba6b9b3ab9d9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player using Guid(419f4ac2f627b134f9ba6b9b3ab9d9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b04327e8170b3cfb895db9275a87aa1') in 0.004184 seconds
-  Import took 0.010100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.003956 seconds.
-  path: Assets/Scripts/Player/Player.cs
-  artifactKey: Guid(f8fe4b8e81753e34cbe8ba28adf5166a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/Player.cs using Guid(f8fe4b8e81753e34cbe8ba28adf5166a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3561cb192fe62a15ae8d73eae8dd3f2') in 0.003373 seconds
-  Import took 0.006762 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1581.
+Total: 2.713500 ms (FindLiveObjects: 0.185400 ms CreateObjectMapping: 0.041200 ms MarkObjects: 2.357000 ms  DeleteObjects: 0.128500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000756 seconds.
+Registered in 0.002612 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.170 seconds
+- Completed reload, in  1.481 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 69.7 MB.
 System memory in use after: 69.8 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1577.
-Total: 2.072500 ms (FindLiveObjects: 0.167600 ms CreateObjectMapping: 0.027200 ms MarkObjects: 1.773800 ms  DeleteObjects: 0.102700 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1584.
+Total: 1.497100 ms (FindLiveObjects: 0.146900 ms CreateObjectMapping: 0.021900 ms MarkObjects: 1.241100 ms  DeleteObjects: 0.085900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
