@@ -5,8 +5,8 @@ using UnityEngine;
 public class SearchPlayer : MonoBehaviour
 {
     RA_Manager PLocator;
-    [SerializeField] private LayerMask detectionLayer;
-    [SerializeField] public Player mainTarget;
+    public LayerMask detectionLayer;
+    public Player mainTarget;
     private GameObject P1;
 
     
