@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637897633720000000
-    m_Hash: 3779184858
+      ticks: 637897682539697910
+    m_Hash: 4272759262
   m_LockFileStatus:
     m_FilePath: C:/Users/senno/OneDrive/Bureaublad/School/MUSE/Project-MUSE/MUSE
       Project/Packages/packages-lock.json
@@ -15,8 +15,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637897633720000000
-    m_Hash: 473184645
+      ticks: 637897682539707884
+    m_Hash: 3085273847
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
