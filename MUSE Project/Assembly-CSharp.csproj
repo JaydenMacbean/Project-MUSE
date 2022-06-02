@@ -56,15 +56,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\GameController.cs" />
-    <Compile Include="Assets\Scripts\Collectibles.cs" />
-    <Compile Include="Assets\Scripts\PlayerCam.cs" />
-    <Compile Include="Assets\Scripts\MoveCamera.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Enemies\RedditAdmin\States\RAState.cs" />
-    <Compile Include="Assets\Scripts\Player\Player.cs" />
-    <Compile Include="Assets\Scripts\Enemies\RedditAdmin\RA_Manager.cs" />
+    <Compile Include="Assets\Scripts\Player\GameController.cs" />
+    <Compile Include="Assets\Scripts\Player\Collectibles.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerCam.cs" />
+    <Compile Include="Assets\Scripts\Player\MoveCamera.cs" />
     <Compile Include="Assets\Scripts\Enemies\RedditAdmin\SearchPlayer.cs" />
+    <Compile Include="Assets\Scripts\Enemies\RedditAdmin\RA_Manager.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
