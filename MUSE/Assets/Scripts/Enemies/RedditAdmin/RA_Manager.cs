@@ -7,7 +7,7 @@ using UnityEngine.AI;
 public class RA_Manager : MonoBehaviour
 {
     public RAState gameState;
-    
+
     #region Variables Patrolling
     NavMeshAgent agent;
 
@@ -15,6 +15,7 @@ public class RA_Manager : MonoBehaviour
     public Transform[] waypoints;
     [SerializeField] private float speed;
     int waypointIndex;
+    [SerializeField]  private float distance;
     private Vector3 target;
     #endregion
 
@@ -43,14 +44,17 @@ public class RA_Manager : MonoBehaviour
 
     void Update()
     {
+        distance = Vector3.Distance(transform.position, target);
         HandleCurrentAction();
 
-        if (Vector3.Distance(transform.position, target) < 1)
+        if (distance < 1f)
         {
-            IterateWaypointIndex();
+            IncreaseWaypointIndex();
+            Debug.Log(waypointIndex);
             
         }
         Patrol();
+        
     }
 
     #region Functions Patrolling
@@ -62,11 +66,11 @@ public class RA_Manager : MonoBehaviour
          
     }
 
-    public void IterateWaypointIndex()
+    public void IncreaseWaypointIndex()
     {
         waypointIndex++;
         Patrol();
-        if (waypointIndex == waypoints.Length)
+        if (waypointIndex >= waypoints.Length)
         {
             waypointIndex = 0;
         }
