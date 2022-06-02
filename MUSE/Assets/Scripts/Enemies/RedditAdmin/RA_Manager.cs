@@ -13,6 +13,7 @@ public class RA_Manager : MonoBehaviour
 
     [Header("Patrolling Settings")]
     public Transform[] waypoints;
+    [SerializeField] private float speed;
     int waypointIndex;
     private Vector3 target;
     #endregion
@@ -35,7 +36,9 @@ public class RA_Manager : MonoBehaviour
 
     void Start()
     {
-        UpdateDestination();
+        waypointIndex = 0;
+        agent.speed = speed;
+        Patrol();
     }
 
     void Update()
@@ -45,20 +48,24 @@ public class RA_Manager : MonoBehaviour
         if (Vector3.Distance(transform.position, target) < 1)
         {
             IterateWaypointIndex();
-            UpdateDestination();
+            
         }
+        Patrol();
     }
 
     #region Functions Patrolling
-    public void UpdateDestination()
+    public void Patrol()
     {
         target = waypoints[waypointIndex].position;
+        transform.LookAt(target);
         agent.SetDestination(target);
+         
     }
 
     public void IterateWaypointIndex()
     {
         waypointIndex++;
+        Patrol();
         if (waypointIndex == waypoints.Length)
         {
             waypointIndex = 0;
