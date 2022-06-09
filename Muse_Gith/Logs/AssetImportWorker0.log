@@ -11,19 +11,19 @@ D:\Program Files\Unity\2020.3.8f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/School (MA)/Leerjaar 2/Bo/Stedelijke Museum/Muse_Gith
+D:/School (MA)/Leerjaar 2/Bo/Stedelijke Museum/Project-MUSE/Muse_Gith
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55107
-Successfully changed project path to: D:/School (MA)/Leerjaar 2/Bo/Stedelijke Museum/Muse_Gith
-D:/School (MA)/Leerjaar 2/Bo/Stedelijke Museum/Muse_Gith
+63595
+Successfully changed project path to: D:/School (MA)/Leerjaar 2/Bo/Stedelijke Museum/Project-MUSE/Muse_Gith
+D:/School (MA)/Leerjaar 2/Bo/Stedelijke Museum/Project-MUSE/Muse_Gith
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 20.96 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 24.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/School (MA)/Leerjaar 2/Bo/Stedelijke Museum/Muse_Gith/Assets
+[Subsystems] Discovering subsystems at path D:/School (MA)/Leerjaar 2/Bo/Stedelijke Museum/Project-MUSE/Muse_Gith/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,59 +35,155 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files/Unity/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001015 seconds.
+Registered in 0.000991 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 21.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 25.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.897 seconds
+- Completed reload, in  1.017 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000594 seconds.
+Registered in 0.000694 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.740 seconds
+- Completed reload, in  0.878 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.1 MB.
-System memory in use after: 57.2 MB.
+System memory in use before: 57.4 MB.
+System memory in use after: 57.5 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
-Total: 1.387500 ms (FindLiveObjects: 0.105000 ms CreateObjectMapping: 0.028200 ms MarkObjects: 1.186400 ms  DeleteObjects: 0.067000 ms)
+Total: 1.682700 ms (FindLiveObjects: 0.150200 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.412500 ms  DeleteObjects: 0.083300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(af920d5acb28e4240a7e965c6b2d8a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(af920d5acb28e4240a7e965c6b2d8a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf101d1290dcc96907a87c5baa703b4') in 0.003414 seconds
-  Import took 0.016939 seconds .
+  path: Assets/Textures/Muur 2 Textures/lambert1_Normal_OpenGL.png
+  artifactKey: Guid(4f0427d73a01c154cb34ef0a7f3a8e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Muur 2 Textures/lambert1_Normal_OpenGL.png using Guid(4f0427d73a01c154cb34ef0a7f3a8e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c36bcafe601634b374417a6ca77a616') in 0.708312 seconds
+  Import took 0.718996 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.211715 seconds.
-  path: Assets/Map.fbx
-  artifactKey: Guid(0e1cf9d4c6f1371458ca4265b82e85d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map.fbx using Guid(0e1cf9d4c6f1371458ca4265b82e85d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32409c9fe560199aec71e8e744d87d4e') in 0.606726 seconds
-  Import took 0.610819 seconds .
+  Time since last request: 0.457251 seconds.
+  path: Assets/Textures/Kamer4_textures/Kamer4_texture.mat
+  artifactKey: Guid(253fe29c0bbb93042b6dcf6fd7e601c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Kamer4_textures/Kamer4_texture.mat using Guid(253fe29c0bbb93042b6dcf6fd7e601c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c7ef1d718acfcfa489a7d5bc0f219c') in 0.074367 seconds
+  Import took 0.076450 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.484828 seconds.
-  path: Assets/Map.fbx
-  artifactKey: Guid(0e1cf9d4c6f1371458ca4265b82e85d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map.fbx using Guid(0e1cf9d4c6f1371458ca4265b82e85d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255d46b9df280cb2a363960bf7e303eb') in 0.143921 seconds
-  Import took 0.147767 seconds .
+  Time since last request: 0.939970 seconds.
+  path: Assets/Textures/Kamer7_textures/lambert1_Normal_OpenGL.png
+  artifactKey: Guid(af70dbebc7065f54791dca56614620bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Kamer7_textures/lambert1_Normal_OpenGL.png using Guid(af70dbebc7065f54791dca56614620bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14159b66b03c3676eb91bde37ffa3939') in 0.010703 seconds
+  Import took 0.021884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.114087 seconds.
+  path: Assets/Textures/Kamer_6_textures/lambert1_Normal_OpenGL.png
+  artifactKey: Guid(cd80fbce90c74f44b8235e14b710d0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Kamer_6_textures/lambert1_Normal_OpenGL.png using Guid(cd80fbce90c74f44b8235e14b710d0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9013be8ffab1188d2c46819560d4bf51') in 0.011104 seconds
+  Import took 0.024648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073073 seconds.
+  path: Assets/Textures/Muur 2 Textures/Muur2 texture.mat
+  artifactKey: Guid(a1a8c8f123b04a14d8bab3d7b464a53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Muur 2 Textures/Muur2 texture.mat using Guid(a1a8c8f123b04a14d8bab3d7b464a53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41721f2380ee16c253197b164d704aff') in 0.034170 seconds
+  Import took 0.042327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.149559 seconds.
+  path: Assets/Textures/kamer2_textures/lambert1_Normal_OpenGL.png
+  artifactKey: Guid(98cabfc7209492c458bb34f6e8bbe67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/kamer2_textures/lambert1_Normal_OpenGL.png using Guid(98cabfc7209492c458bb34f6e8bbe67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6ab88eeed07d6d854d97f73fcb36cb') in 0.009925 seconds
+  Import took 0.018147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.005604 seconds.
+  path: Assets/Textures/Kamer4_textures/lambert1_Normal_OpenGL.png
+  artifactKey: Guid(e595d3ce2691d394ca72ad0dbb1b34c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Kamer4_textures/lambert1_Normal_OpenGL.png using Guid(e595d3ce2691d394ca72ad0dbb1b34c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1fc7a9bef663208fd4e2005f9fac08') in 0.010839 seconds
+  Import took 0.058350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074371 seconds.
+  path: Assets/Textures/Kamer_6_textures/Kamer6_texture.mat
+  artifactKey: Guid(927f5d57859b6804b905683bebbb3ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Kamer_6_textures/Kamer6_texture.mat using Guid(927f5d57859b6804b905683bebbb3ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f6531328be49f4a8712e7d7ab685bf') in 0.027140 seconds
+  Import took 0.029305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.098284 seconds.
+  path: Assets/Textures/Kamer7_textures/Kamer7_texture.mat
+  artifactKey: Guid(a5234b53764518342ac4ecf158bc2211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Kamer7_textures/Kamer7_texture.mat using Guid(a5234b53764518342ac4ecf158bc2211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707001f4ff39aefeb7419490ace0144c') in 0.027598 seconds
+  Import took 0.045699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097691 seconds.
+  path: Assets/Textures/Muur 3 textures/Muur3 Texture.mat
+  artifactKey: Guid(8b5552d328146a547bbd10d9f168cd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Muur 3 textures/Muur3 Texture.mat using Guid(8b5552d328146a547bbd10d9f168cd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb98b4a8c519bebb02c4e9a6580c96c') in 0.020238 seconds
+  Import took 0.029258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.176364 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719a384bc6644f4e1f2a8eeccc4e8a0f') in 0.002736 seconds
+  Import took 0.004453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.438437 seconds.
+  path: Assets/Textures/Kamer8_textures/lambert1_Normal_OpenGL.png
+  artifactKey: Guid(fd8aa07f29d5e1640a5315f1e9906a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Kamer8_textures/lambert1_Normal_OpenGL.png using Guid(fd8aa07f29d5e1640a5315f1e9906a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba7115a3c509156c3c95acf080eb7d2') in 0.011284 seconds
+  Import took 0.022859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.545631 seconds.
+  path: Assets/Textures/Muur 3 textures/lambert1_Normal_OpenGL.png
+  artifactKey: Guid(ff5306ae0fb17c64a8c15423e2ad3d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Muur 3 textures/lambert1_Normal_OpenGL.png using Guid(ff5306ae0fb17c64a8c15423e2ad3d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15c19bb6fc1849ad0dffebfb4834686') in 0.011196 seconds
+  Import took 0.012964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003801 seconds.
+  path: Assets/Textures/Kamer8_textures/Kamer8_texture.mat
+  artifactKey: Guid(bc8b2d3d05f40fa41b34ab59206ae2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Kamer8_textures/Kamer8_texture.mat using Guid(bc8b2d3d05f40fa41b34ab59206ae2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1023aa0812ff5e45783ff05caef29e4') in 0.022626 seconds
+  Import took 0.024832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.868152 seconds.
+  path: Assets/Textures/kamer2_textures/Kamer2_texture.mat
+  artifactKey: Guid(e9b4d8dd06946744cbf949f23898d313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/kamer2_textures/Kamer2_texture.mat using Guid(e9b4d8dd06946744cbf949f23898d313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4a78038086c47ec528e62ce08b7d26') in 0.022740 seconds
+  Import took 0.032315 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
